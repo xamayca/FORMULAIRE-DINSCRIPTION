@@ -29,7 +29,7 @@ Vous devez trouvez vous même les Ids de chacun des elements nécessaire a la r�
 
 2- FAIRE APPARAÎTRE LE MESSAGE D'ERREUR QUAND ON ÉCRIT DANS LE INPUT:
 
-                    " This field is required "
+                    " I love cats and cats love me "
 
 3- FAIRE APPARAÎTRE EN PLUS LA BORDURE D'ERREUR.
 
@@ -40,6 +40,10 @@ Vous devez trouvez vous même les Ids de chacun des elements nécessaire a la r�
 
 ÉTAPE - 2
 
-1-
+1- RENDRE LE PREMIER CARACTÈRE DU TEXTE DANS L'INPUT EN MAJUSCULE.
 
-2- FAIRE APPARAÎTRE LE MESSAGE D'ERREUR QUAND ON ÉCRIT DANS LE INPUT:
+2- RENDRE LE RESTE DES CARACTÈRE DU TEXTE DANS L'INPUT EN MINUSCULE.
+
+2- FAIRE APPARAÎTRE LE MESSAGE D'ERREUR QUAND LE INPUT EST VIDE:
+
+                    " This field is required "
