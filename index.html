@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Javascript inscription form">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@100;400&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="assets/css/styles.css">
+    <title>Formulaire JS</title>
+</head>
+
+<body class="bg-body txt-white txt-center">
+
+    <h1 class="fw-bold p-3 fs-1">Javascript Inscription Form (mobile first)</h1>
+
+    <div class="d-flex justify-around">
+
+        <div class="bg-dark p-2 w-75">
+
+            <form id="signUpForm" action="" class="d-flex flex-col gap-1">
+
+
+                <h2 class="fw-bold fs-1 txt-up">Create an account</h2>
+
+                <div class="d-flex flex-col relative">
+                    <img id="error-icon-user" src="assets/img/error-icon.svg"
+                        class="absolute right-5 bottom-25 opacity-0" alt="Icône d'erreur du champ nom d'utilisateur">
+                    <img id="valid-icon-user" src="assets/img/success-icon.svg"
+                        class="absolute right-5 bottom-25 opacity-0" alt="Icône valide du champ nom d'utilisateur">
+
+                    <img src="assets/img/user-icon.svg" class="absolute left-5 bottom-25"
+                        alt="Icône du champ nom d'utilisateur">
+
+                    <span id="error-msg-user" class="bg-warn p-01 fs-05 fw-bold opacity-0"></span>
+                    <input id="username" type="text" placeholder="Enter your Username" name="username"
+                        class="pr-15 p-1 fw-bold">
+                </div>
+
+                <div class="d-flex flex-col relative">
+                    <img id="error-icon-email" src="assets/img/error-icon.svg"
+                        class="absolute right-5 bottom-25 opacity-0" alt="Icône d'erreur du champ e-mail">
+                    <img id="valid-icon-email" src="assets/img/success-icon.svg"
+                        class="absolute right-5 bottom-25 opacity-0" alt="Icône valide du champ e-mail">
+
+                    <img src="assets/img/mail-icon.svg" class="absolute left-5 bottom-25" alt="Icône du champ Email">
+
+                    <span class="bg-warn p-01 fs-05 fw-bold opacity-0"></span>
+                    <input id="mail" type="mail" placeholder="Enter your Email" name="email" class="pr-15 p-1 fw-bold">
+                </div>
+
+                <div class="d-flex flex-col relative">
+                    <img id="error-icon-password" src="assets/img/error-icon.svg"
+                        class="absolute right-5 bottom-25 opacity-0" alt="Icône d'erreur du champ mot de passe">
+                    <img id="valid-icon-password" src="assets/img/success-icon.svg"
+                        class="absolute right-5 bottom-25 opacity-0" alt="Icône valide du champ mot de passe">
+
+                    <img src="assets/img/password-icon.svg" class="absolute left-5 bottom-25"
+                        alt="Icône du champ mot de passe">
+
+                    <span class="bg-warn p-01 fs-05 fw-bold opacity-0"></span>
+                    <input id="password" type="password" placeholder="Enter your Password" name="password"
+                        class="pr-15 p-1 fw-bold">
+                </div>
+
+                <div class="d-flex flex-col relative">
+                    <img id="error-icon-repeat-password" src="assets/img/error-icon.svg"
+                        class="absolute right-5 bottom-25 opacity-0" alt="Icône d'erreur du champ répétez mot de passe">
+                    <img id="error-icon-repeat-password" src="assets/img/success-icon.svg"
+                        class="absolute right-5 bottom-25 opacity-0" alt="Icône valide du champ répétez mot de passe">
+
+                    <img src="assets/img/password-icon.svg" class="absolute left-5 bottom-25"
+                        alt="Icône du champ répétez le mot de passe">
+
+                    <span class="bg-warn p-01 fs-05 fw-bold opacity-0"></span>
+                    <input id="password-repeat" type="password" placeholder="Repeat your Password"
+                        name="password-repeat" class="pr-15 p-1 fw-bold">
+                </div>
+
+                <label class="bg-light-grey p-05">
+                    <small class="fs-05">
+                        <input id="accept-privacy" type="checkbox" checked="" name="privacy" class="m"> By
+                        creating an account you agree to our <a href="#" class="txt-white fw-bold">Terms & Privacy</a>.
+                    </small>
+                </label>
+
+                <div class="d-flex justify-evenly">
+                    <button id="cancel-signup" type="button"
+                        class="btn-error p-1 w-40 fw-bold border-none txt-white">Cancel</button>
+                    <button id="valid-signup" type="submit"
+                        class="btn-success p-1 w-40 fw-bold border-none txt-white">Sign Up</button>
+                </div>
+
+            </form>
+
+        </div>
+
+    </div>
+
+    <div class="p-3">
+        <small class="fw-bold">Réaliser pour les Apprenants développeur web La Manu.</small>
+        <p class="fw-bold">Made in France with love</p>
+    </div>
+
+    <script src="assets/js/script.js"></script>
+</body>
+
+</html>
