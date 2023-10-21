@@ -25,7 +25,7 @@ Vous devez trouvez vous même les Ids de chacun des elements nécessaire a la r�
 
 ÉTAPE - 1
 
-1- AFFICHER UN CONSOLE LOG DU INPUT USERNAME.
+1- AFFICHER UN CONSOLE LOG DU INPUT USERNAME CHAQUE FOIS QUE VOUS TAPEZ DU TEXTE.
 
 2- FAIRE APPARAÎTRE LE MESSAGE D'ERREUR QUAND ON ÉCRIT DANS LE INPUT:
 
@@ -47,3 +47,5 @@ Vous devez trouvez vous même les Ids de chacun des elements nécessaire a la r�
 2- FAIRE APPARAÎTRE LE MESSAGE D'ERREUR QUAND LE INPUT EST VIDE:
 
                     " This field is required "
+
+3- FAIRE APPARAÎTRE LE MESSAGE D'ERREUR SI LE INPUT CONTIENT MOINS DE 3 CARACTÈRES.
