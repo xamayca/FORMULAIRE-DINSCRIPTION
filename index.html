@@ -14,9 +14,12 @@
 
 <body class="bg-body txt-white txt-center">
 
-    <h1 class="fw-bold p-3 fs-1">Javascript Inscription Form (mobile first)</h1>
+    <h1 class="fw-bold p-2 fs-1">Javascript Inscription Form (mobile first)</h1>
 
-    <div class="d-flex justify-around">
+
+    <div class="d-flex flex-col items-center justify-around">
+
+
 
         <div class="bg-dark p-2 w-75">
 
@@ -27,59 +30,60 @@
 
                 <div class="d-flex flex-col relative">
                     <img id="error-icon-user" src="assets/img/error-icon.svg"
-                        class="absolute right-5 bottom-25 opacity-0" alt="Icône d'erreur du champ nom d'utilisateur">
+                        class="absolute right-5 bottom-20 opacity-0" alt="Icône d'erreur du champ nom d'utilisateur">
                     <img id="valid-icon-user" src="assets/img/success-icon.svg"
-                        class="absolute right-5 bottom-25 opacity-0" alt="Icône valide du champ nom d'utilisateur">
+                        class="absolute right-5 bottom-20 opacity-0" alt="Icône valide du champ nom d'utilisateur">
 
-                    <img src="assets/img/user-icon.svg" class="absolute left-5 bottom-25"
+                    <img src="assets/img/user-icon.svg" class="absolute left-5 bottom-20"
                         alt="Icône du champ nom d'utilisateur">
 
-                    <span id="error-msg-user" class="bg-warn p-01 fs-05 fw-bold opacity-0"></span>
+                    <span id="error-msg-user" class="bg-warn p-1 fs-05 fw-bold opacity-0"></span>
                     <input id="username" type="text" placeholder="Enter your Username" name="username"
                         class="pr-15 p-1 fw-bold">
                 </div>
 
                 <div class="d-flex flex-col relative">
                     <img id="error-icon-email" src="assets/img/error-icon.svg"
-                        class="absolute right-5 bottom-25 opacity-0" alt="Icône d'erreur du champ e-mail">
+                        class="absolute right-5 bottom-20 opacity-0" alt="Icône d'erreur du champ e-mail">
                     <img id="valid-icon-email" src="assets/img/success-icon.svg"
-                        class="absolute right-5 bottom-25 opacity-0" alt="Icône valide du champ e-mail">
+                        class="absolute right-5 bottom-20 opacity-0" alt="Icône valide du champ e-mail">
 
-                    <img src="assets/img/mail-icon.svg" class="absolute left-5 bottom-25" alt="Icône du champ Email">
+                    <img src="assets/img/mail-icon.svg" class="absolute left-5 bottom-20" alt="Icône du champ Email">
 
-                    <span class="bg-warn p-01 fs-05 fw-bold opacity-0"></span>
+                    <span class="bg-warn p-1 fs-05 fw-bold opacity-0"></span>
                     <input id="mail" type="mail" placeholder="Enter your Email" name="email" class="pr-15 p-1 fw-bold">
                 </div>
 
                 <div class="d-flex flex-col relative">
                     <img id="error-icon-password" src="assets/img/error-icon.svg"
-                        class="absolute right-5 bottom-25 opacity-0" alt="Icône d'erreur du champ mot de passe">
+                        class="absolute right-5 bottom-20 opacity-0" alt="Icône d'erreur du champ mot de passe">
                     <img id="valid-icon-password" src="assets/img/success-icon.svg"
-                        class="absolute right-5 bottom-25 opacity-0" alt="Icône valide du champ mot de passe">
+                        class="absolute right-5 bottom-20 opacity-0" alt="Icône valide du champ mot de passe">
 
-                    <img src="assets/img/password-icon.svg" class="absolute left-5 bottom-25"
+                    <img src="assets/img/password-icon.svg" class="absolute left-5 bottom-20"
                         alt="Icône du champ mot de passe">
 
-                    <span class="bg-warn p-01 fs-05 fw-bold opacity-0"></span>
+                    <span class="bg-warn p-1 fs-05 fw-bold opacity-0"></span>
                     <input id="password" type="password" placeholder="Enter your Password" name="password"
                         class="pr-15 p-1 fw-bold">
                 </div>
 
                 <div class="d-flex flex-col relative">
                     <img id="error-icon-repeat-password" src="assets/img/error-icon.svg"
-                        class="absolute right-5 bottom-25 opacity-0" alt="Icône d'erreur du champ répétez mot de passe">
+                        class="absolute right-5 bottom-20 opacity-0" alt="Icône d'erreur du champ répétez mot de passe">
                     <img id="error-icon-repeat-password" src="assets/img/success-icon.svg"
-                        class="absolute right-5 bottom-25 opacity-0" alt="Icône valide du champ répétez mot de passe">
+                        class="absolute right-5 bottom-20 opacity-0" alt="Icône valide du champ répétez mot de passe">
 
-                    <img src="assets/img/password-icon.svg" class="absolute left-5 bottom-25"
+                    <img src="assets/img/password-icon.svg" class="absolute left-5 bottom-20"
                         alt="Icône du champ répétez le mot de passe">
 
-                    <span class="bg-warn p-01 fs-05 fw-bold opacity-0"></span>
+                    <span class="bg-warn p-1 fs-05 fw-bold opacity-0"></span>
                     <input id="password-repeat" type="password" placeholder="Repeat your Password"
                         name="password-repeat" class="pr-15 p-1 fw-bold">
                 </div>
 
-                <label class="bg-light-grey p-05">
+                <label class="bg-light-grey p-05 relative">
+
                     <small class="fs-05">
                         <input id="accept-privacy" type="checkbox" checked="" name="privacy" class="m"> By
                         creating an account you agree to our <a href="#" class="txt-white fw-bold">Terms & Privacy</a>.
@@ -96,6 +100,8 @@
             </form>
 
         </div>
+
+        <p id="form-error" class="bg-warn w-75 p-1 opacity-0"></p>
 
     </div>
 
