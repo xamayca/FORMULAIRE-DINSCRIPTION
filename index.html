@@ -16,10 +16,7 @@
 
     <h1 class="fw-bold p-2 fs-1">Javascript Inscription Form (mobile first)</h1>
 
-
     <div class="d-flex flex-col items-center justify-around">
-
-
 
         <div class="bg-dark p-2 w-75">
 
@@ -30,15 +27,28 @@
 
                 <div class="d-flex flex-col relative">
                     <img id="error-icon-user" src="assets/img/error-icon.svg"
-                        class="absolute right-5 bottom-20 opacity-0" alt="Icône d'erreur du champ nom d'utilisateur">
+                        class="absolute right-5 bottom-20 opacity-0" alt="Icône d'erreur du champ prénom">
                     <img id="valid-icon-user" src="assets/img/success-icon.svg"
-                        class="absolute right-5 bottom-20 opacity-0" alt="Icône valide du champ nom d'utilisateur">
+                        class="absolute right-5 bottom-20 opacity-0" alt="Icône valide du champ prénom">
 
                     <img src="assets/img/user-icon.svg" class="absolute left-5 bottom-20"
                         alt="Icône du champ nom d'utilisateur">
 
-                    <span id="error-msg-user" class="bg-warn p-1 fs-05 fw-bold opacity-0"></span>
-                    <input id="username" type="text" placeholder="Enter your Username" name="username"
+                    <span id="error-msg-name" class="bg-warn p-1 fs-05 fw-bold opacity-0"></span>
+                    <input id="name" type="text" placeholder="Enter your Name" name="name" class="pr-15 p-1 fw-bold">
+                </div>
+
+                <div class="d-flex flex-col relative">
+                    <img id="error-icon-user" src="assets/img/error-icon.svg"
+                        class="absolute right-5 bottom-20 opacity-0" alt="Icône d'erreur du champ nom">
+                    <img id="valid-icon-user" src="assets/img/success-icon.svg"
+                        class="absolute right-5 bottom-20 opacity-0" alt="Icône valide du champ nom">
+
+                    <img src="assets/img/user-icon.svg" class="absolute left-5 bottom-20"
+                        alt="Icône du champ nom d'utilisateur">
+
+                    <span id="error-msg-lname" class="bg-warn p-1 fs-05 fw-bold opacity-0"></span>
+                    <input id="lname" type="text" placeholder="Enter your Last Name" name="lname"
                         class="pr-15 p-1 fw-bold">
                 </div>
 

@@ -38,32 +38,54 @@ Vous devez trouvez vous même les Ids de chacun des elements nécessaire a la r�
 3. FAIRE APPARAÎTRE LE MESSAGE D'ERREUR QUAND LE INPUT EST VIDE: " This field is required "
 4. FAIRE APPARAÎTRE LE MESSAGE D'ERREUR SI LE INPUT CONTIENT MOINS DE 3 CARACTÈRES.
 
-// ÉTAPE - 3 (Input Email) :
+////////////////////////////////////////////////////////////////////////////////////////
+
+                                     EXERCICE PHASE 2
+
+////////////////////////////////////////////////////////////////////////////////////////
+
+// ÉTAPE - 1 (Input Username & LastName) :
+1. CREE UNE FONCTION QUI GÈRE LES MESSAGE D'ERREURS POUR LE CHAMP NAME ET LAST NAME.
+
+
+////////////////////////////////////////////////////////////////////////////////////////
+
+                                     EXERCICE PHASE 3
+
+////////////////////////////////////////////////////////////////////////////////////////
+
+// ÉTAPE - 1 (Input Email) :
 1. AFFICHER UN CONSOLE LOG DE L'INPUT EMAIL.
 2. FAIRE APPARAÎTRE LE MESSAGE D'ERREUR SI L'EMAIL EST VIDE : "Email address is required."
 3. FAIRE APPARAÎTRE LE MESSAGE D'ERREUR SI L'EMAIL N'EST PAS VALIDE (utilisez une expression régulière pour vérifier la validité de l'email).
 4. FAIRE APPARAÎTRE LA BORDURE D'ERREUR LORSQUE L'EMAIL EST INVALIDE.
 
-// ÉTAPE - 4 (Input Mot de passe) :
+// ÉTAPE - 2 (Input Mot de passe) :
 1. AFFICHER UN CONSOLE LOG DE L'INPUT MOT DE PASSE.
 2. FAIRE APPARAÎTRE LE MESSAGE D'ERREUR SI LE MOT DE PASSE EST VIDE : "Password is required."
 3. FAIRE APPARAÎTRE LE MESSAGE D'ERREUR SI LE MOT DE PASSE CONTIENT MOINS DE 6 CARACTÈRES : "The password must contain at least 6 characters."
 4. FAIRE APPARAÎTRE LA BORDURE D'ERREUR LORSQUE LE MOT DE PASSE EST INVALIDE.
 
-// ÉTAPE - 5 (Input Confirmation du mot de passe) :
+// ÉTAPE - 3 (Input Confirmation du mot de passe) :
 1. AFFICHER UN CONSOLE LOG DE L'INPUT DE CONFIRMATION DE MOT DE PASSE.
 2. FAIRE APPARAÎTRE LE MESSAGE D'ERREUR SI LE CHAMP DE CONFIRMATION DE MOT DE PASSE EST VIDE : "Password confirmation is required."
 3. FAIRE APPARAÎTRE LE MESSAGE D'ERREUR SI LE CHAMP DE CONFIRMATION DE MOT DE PASSE NE CORRESPOND PAS AU MOT DE PASSE PRINCIPAL : "Password does not match."
 4. FAIRE APPARAÎTRE LA BORDURE D'ERREUR LORSQUE LA CONFIRMATION DU MOT DE PASSE EST INVALIDE.
 
-// ÉTAPE - 6 (Checkbox) :
+// ÉTAPE - 4 (Checkbox) :
 1. AFFICHER UN CONSOLE LOG DE LA CASE À COCHER.
 2. FAIRE APPARAÎTRE LE MESSAGE D'ERREUR SI LA CASE À COCHER N'EST PAS COCHÉE : "You must accept the terms of use."
 
-// ÉTAPE - 7 (Bouton Annuler) :
+// ÉTAPE - 5 (Bouton Annuler) :
 1. LORSQUE LE BOUTON "ANNULER" EST CLIQUÉ, EFFACEZ TOUS LES CHAMPS DE SAISIE.
 
-// ÉTAPE - 8 (BONUS)
+////////////////////////////////////////////////////////////////////////////////////////
+
+                                     EXERCICE BONUS
+
+////////////////////////////////////////////////////////////////////////////////////////
+
+// ÉTAPE - 1 (BONUS)
 1. SI TOUS LES CHAMPS SONT VALIDES, AFFICHEZ UN MESSAGE DE SUCCÈS.
 2. LORSQUE LE BOUTON "ENVOYER" EST CLIQUÉ, EFFECTUEZ UNE VALIDATION FINALE DE TOUS LES CHAMPS.
 SI L'UN DES CHAMPS N'EST PAS VALIDE, AFFICHEZ UN MESSAGE D'ERREUR GLOBAL INDIQUANT QU'IL Y A DES ERREURS DANS LE FORMULAIRE.
