@@ -47,7 +47,7 @@ Vous devez trouvez vous même les Ids de chacun des elements nécessaire a la r�
 // ÉTAPE - 4 (Input Mot de passe) :
 1. AFFICHER UN CONSOLE LOG DE L'INPUT MOT DE PASSE.
 2. FAIRE APPARAÎTRE LE MESSAGE D'ERREUR SI LE MOT DE PASSE EST VIDE : "Password is required."
-3. FAIRE APPARAÎTRE LE MESSAGE D'ERREUR SI LE MOT DE PASSE CONTIENT MOINS DE 6 CARACTÈRES : "Le mot de passe doit contenir au moins 6 caractères."
+3. FAIRE APPARAÎTRE LE MESSAGE D'ERREUR SI LE MOT DE PASSE CONTIENT MOINS DE 6 CARACTÈRES : "The password must contain at least 6 characters."
 4. FAIRE APPARAÎTRE LA BORDURE D'ERREUR LORSQUE LE MOT DE PASSE EST INVALIDE.
 
 // ÉTAPE - 5 (Input Confirmation du mot de passe) :
