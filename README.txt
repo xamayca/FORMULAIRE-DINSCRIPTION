@@ -24,6 +24,16 @@ Vous devez trouvez vous même les Ids de chacun des elements nécessaire a la r�
 
 ////////////////////////////////////////////////////////////////////////////////////////
 
+// ÉTAPE - 1 (Mise a jour du formulaire) :
+1. EMPÊCHER LES INPUT D'ETRE VIDER QUAND ON CLIQUE SUR LE BOUTON ENVOYER.
+
+
+////////////////////////////////////////////////////////////////////////////////////////
+
+                                     EXERCICE PHASE 1
+
+////////////////////////////////////////////////////////////////////////////////////////
+
 
 // ÉTAPE - 1 (Input Name) :
 1. AFFICHER UN CONSOLE LOG DU INPUT NAME.
@@ -38,15 +48,6 @@ Vous devez trouvez vous même les Ids de chacun des elements nécessaire a la r�
 3. FAIRE APPARAÎTRE LE MESSAGE D'ERREUR QUAND LE INPUT EST VIDE: " This field is required "
 4. FAIRE APPARAÎTRE LE MESSAGE D'ERREUR SI LE INPUT CONTIENT MOINS DE 3 CARACTÈRES.
 
-
-////////////////////////////////////////////////////////////////////////////////////////
-
-                                     EXERCICE PHASE 1
-
-////////////////////////////////////////////////////////////////////////////////////////
-
-// ÉTAPE - 1 (Mise a jour du formulaire) :
-1. EMPÊCHER LES INPUT D'ETRE VIDER QUAND ON CLIQUE SUR LE BOUTON ENVOYER.
 
 ////////////////////////////////////////////////////////////////////////////////////////
 
