@@ -25,18 +25,27 @@ Vous devez trouvez vous même les Ids de chacun des elements nécessaire a la r�
 ////////////////////////////////////////////////////////////////////////////////////////
 
 
-// ÉTAPE - 1 (Input Username) :
-1. AFFICHER UN CONSOLE LOG DU INPUT USERNAME.
+// ÉTAPE - 1 (Input Name) :
+1. AFFICHER UN CONSOLE LOG DU INPUT NAME.
 2. FAIRE APPARAÎTRE LE MESSAGE D'ERREUR QUAND ON ÉCRIT DANS LE INPUT: " I love cats and cats love me "
 3. FAIRE APPARAÎTRE EN PLUS LA BORDURE D'ERREUR.
 4. FAIRE APPARAÎTRE EN PLUS L'ICÔNE D'ERREUR.
 5. MASQUER L'ICÔNE, LA BORDURE ET LE MESSAGE QUAND LE CHAMP EST VIDE.
 
-// ÉTAPE - 2 (Input Username - Transformation du texte) :
+// ÉTAPE - 2 (Input Name - Transformation du texte) :
 1. RENDRE LE PREMIER CARACTÈRE DU TEXTE DANS L'INPUT EN MAJUSCULE.
 2. RENDRE LE RESTE DES CARACTÈRES DU TEXTE DANS L'INPUT EN MINUSCULE.
 3. FAIRE APPARAÎTRE LE MESSAGE D'ERREUR QUAND LE INPUT EST VIDE: " This field is required "
 4. FAIRE APPARAÎTRE LE MESSAGE D'ERREUR SI LE INPUT CONTIENT MOINS DE 3 CARACTÈRES.
+
+////////////////////////////////////////////////////////////////////////////////////////
+
+                                     EXERCICE PHASE 1
+
+////////////////////////////////////////////////////////////////////////////////////////
+
+// ÉTAPE - 1 (Mise a jour du formulaire) :
+1. EMPÊCHER LES INPUT D'ETRE VIDER QUAND ON CLIQUE SUR LE BOUTON ENVOYER.
 
 ////////////////////////////////////////////////////////////////////////////////////////
 
